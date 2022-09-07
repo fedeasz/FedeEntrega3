@@ -1,0 +1,20 @@
+h3 {
+  color: yellow; }
+
+header {
+  background-color: red; }
+  header div {
+    padding: 10px; }
+    header div h3 {
+      font-size: 30px; }
+
+a {
+  text-decoration: none; }
+  a :hover {
+    color: red; }
+
+.encabezado {
+  background-color: green; }
+  .encabezado h3 font {
+    size: 20px;
+    weight: bold; }
