@@ -1,6 +1,43 @@
-@import "colores";
-@import "header";
-html{
-	background-color: yellow-orange
+@import url(colores);
+@import url(header);
+@import url(estilo blogs);
+
+
+.centrado{
+	text-align: center;
 }
-.gradient{background: -webkit-linear-gradient(orange, pink);}
+.gradient{
+	background-color:orange;
+}
+.translateY{ transition: all 1s;
+}
+.translateY:hover{
+	transform: translateY(-20px);
+}
+.primergrid{
+	display: grid;
+	grid-template-columns: 100px 50px 50px 50px;
+	grid-template-rows: 10px 10px 10px 10px;
+}
+.borde0{
+  border-style: solid;
+}
+.centro{
+	justify-content: center;
+}
+.G1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header{
+	padding-bottom: 20px
+}
+body{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+footer{
+	padding-top: 10px;
+}
