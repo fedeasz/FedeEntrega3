@@ -38,3 +38,52 @@ body {
 
 footer {
   padding-top: 10px; }
+.contacto{
+  background-image: url(assets/img/ceraabeja.jpg);
+  background-size: 100%;
+  background-attachment:fixed;
+  margin: 0;
+}
+.contacto {
+  width: 450px;
+  margin:  auto;
+  background: rgba(0,0,0,0.4);
+  padding:10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.titcon{
+  color: white;
+  margin-bottom: 20px;
+  margin-bottom: 0;
+  font-size: 30px;
+
+}
+input,textarea{
+  width:100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+ #botones{
+  background-color: lightgrey;
+  color: white;
+  padding: 20PX;
+}
+#botones:hover {
+  cursor: pointer;
+}
+.tamaños{
+  margin:auto ;
+  display: block;
+  height: 100px ;
+  width: 150px;
+ 
+}
