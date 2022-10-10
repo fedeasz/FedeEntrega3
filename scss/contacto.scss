@@ -1,0 +1,40 @@
+.contacto{
+  background-size: 100%;
+  background-attachment:fixed;
+  margin: 0;
+}
+.contacto {
+  margin:  auto;
+  background: rgba(0,0,0,0.4);
+  padding:10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.titcon{
+  color: $colornegro;
+  margin-bottom: 20px;
+  margin-bottom: 0;
+  font-size: 30px;
+
+}
+input,textarea{
+  width:100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+ #botones{
+  background-color: lightgrey;
+  color: $colornegro;
+  padding: 20PX;
+}
+#botones:hover {
+  cursor: pointer;
+}

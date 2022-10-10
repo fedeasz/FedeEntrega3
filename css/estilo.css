@@ -1,89 +1,127 @@
-@import url(colores);
-@import url(header);
-@import url(estilo blogs);
-.centrado {
-  text-align: center; }
+body {
+  background-color: #FFD733; }
 
-.gradient {
+h1 {
+  color: black;
   background-color: orange; }
 
-.translateY {
-  transition: all 1s; }
+.card {
+  background-color: black; }
 
-.translateY:hover {
-  transform: translateY(-20px); }
-
-.primergrid {
-  display: grid;
-  grid-template-columns: 100px 50px 50px 50px;
-  grid-template-rows: 10px 10px 10px 10px; }
-
-.borde0 {
-  border-style: solid; }
-
-.centro {
-  justify-content: center; }
-
-.G1 {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-header {
+header div {
+  padding-left: 0px;
   padding-bottom: 20px; }
 
-body {
-  padding-top: 10px;
-  padding-bottom: 20px; }
+div {
+  font-family: italic; }
+  div a {
+    font-size: 20px;
+    text-decoration: none; }
+    div a:hover {
+      cursor: pointer; }
 
 footer {
-  padding-top: 10px; }
-.contacto{
-  background-image: url(assets/img/ceraabeja.jpg);
-  background-size: 100%;
-  background-attachment:fixed;
-  margin: 0;
-}
+  padding-top: 40px; }
+
+.img1 {
+  margin: auto;
+  display: block;
+  height: 92px;
+  width: 136px; }
+
+.img2 {
+  margin: auto;
+  display: block;
+  height: 46px;
+  width: 171px; }
+
+.img3 {
+  margin: auto;
+  display: block;
+  height: 85px;
+  width: 90px; }
+
 .contacto {
-  width: 450px;
-  margin:  auto;
-  background: rgba(0,0,0,0.4);
-  padding:10px 20px;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0; }
+
+.contacto {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
-}
-.titcon{
-  color: white;
+  margin-top: 20px; }
+
+.titcon {
+  color: black;
   margin-bottom: 20px;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 30px; }
 
-}
-input,textarea{
-  width:100%;
+input, textarea {
+  width: 100%;
   margin-bottom: 20px;
   padding: 7px;
   box-sizing: border-box;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
-textarea{
+textarea {
   min-height: 100px;
   max-height: 200px;
-  max-width: 100%;
-}
- #botones{
+  max-width: 100%; }
+
+#botones {
   background-color: lightgrey;
-  color: white;
-  padding: 20PX;
-}
+  color: black;
+  padding: 20PX; }
+
 #botones:hover {
-  cursor: pointer;
-}
-.tamaños{
-  margin:auto ;
+  cursor: pointer; }
+
+main {
+  padding: auto; }
+  main div {
+    padding-top: 15px; }
+    main div h1 {
+      text-align: center;
+      text-decoration: bold; }
+
+main {
+  padding-top: 50px; }
+  main div {
+    font-size: 20px; }
+    main div p {
+      font-family: Verdana;
+      font-size: 30px; }
+
+.card-title {
+  color: white;
+  text-decoration: underline;
+  font-family: fantasy;
+  text-align: center; }
+
+.card-text {
+  background: orange;
+  text-align: center;
+  font-size: 15px;
+  font-family: serif;
+  padding-top: 5px; }
+
+div h5 p {
+  font-size: 8px; }
+
+div {
+  padding-top: 15px; }
+  div h2 {
+    text-align: center;
+    text-decoration: bold; }
+
+.mapa {
+  padding-top: 20px;
   display: block;
-  height: 100px ;
-  width: 150px;
- 
-}
+  margin: auto; }
+
+h1 {
+  text-align: center;
+  text-decoration: bold; }

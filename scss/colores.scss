@@ -1,10 +1,17 @@
-$colorPrimario: yellow;
-$colorSecundario: orange;
-$bgPrimario: green;
-$bgSecundario: blue;
-$colorNegro: black;
-$colorBlanco: white;
-
-h3{
-	color: $colorPrimario
+$colorprimario: #FFD733;
+$colorSecunadario: yellow;
+$bgprimario: orange;
+$bgsecundario:blue;
+$colornegro: black;
+$colorblanco: white;
+$colorrelleno:grey;
+body{
+	background-color: $colorprimario;
 }
+h1{color: $colornegro;
+	background-color: $bgprimario;}
+.card{
+	background-color: $colornegro;
+}
+
+
